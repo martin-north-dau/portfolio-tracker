@@ -15,14 +15,12 @@ const C = {
 
 const inp = {
   background: "#0a0a1a", border: "1px solid #1e2235",
-  background: "#0a0a1a", border: "1px solid #1e2235",
   borderRadius: 8, color: "#e8eaf0", padding: "7px 10px",
   fontSize: 13, width: "100%", boxSizing: "border-box",
 };
 
 function parseCSVLine(line) {
   const result = [];
-  let current = "";
   let current = "";
   let inQuotes = false;
   for (let i = 0; i < line.length; i++) {
